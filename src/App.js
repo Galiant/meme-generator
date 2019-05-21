@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Header from './Header';
+import MemeGenerator from './Memegenerator';
 import './index.css';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <h1>Meme Generator</h1>
     );
-  }
 }
 
 export default App;
