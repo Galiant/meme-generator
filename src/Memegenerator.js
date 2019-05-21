@@ -7,10 +7,10 @@ class MemeGenerator extends Component {
 
     }
   }
-  
+
   render() {
     return (
-      <h1>meme Generator section</h1>
+      <h1>Meme Generator section</h1>
     );
   }
 }

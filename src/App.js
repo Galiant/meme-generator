@@ -4,8 +4,11 @@ import MemeGenerator from './Memegenerator';
 import './index.css';
 
 const App = () => {
-    return (
-      <h1>Meme Generator</h1>
+  return (
+    <div>
+      <Header />
+      <MemeGenerator />
+    </div>
     );
 }
 
